@@ -1,4 +1,4 @@
-window.ASSET_PREFIX = "";
+window.ASSET_PREFIX = "./build/";
 window.SCRIPT_PREFIX = "";
 window.SCENE_PATH = "2290825.json";
 window.CONTEXT_OPTIONS = {
@@ -9,7 +9,7 @@ window.CONTEXT_OPTIONS = {
     'powerPreference': "high-performance"
 };
 window.SCRIPTS = [ 243556683, 243556684, 243556685, 243556686, 243556687, 243556688, 243558270, 243558272, 243786356, 243797633, 243803178 ];
-window.CONFIG_FILENAME = "config.json";
+window.CONFIG_FILENAME =window.ASSET_PREFIX + "config.json";
 window.INPUT_SETTINGS = {
     useKeyboard: true,
     useMouse: true,
