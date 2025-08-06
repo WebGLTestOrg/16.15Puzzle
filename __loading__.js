@@ -4,3 +4,7 @@ pc.script.createLoadingScreen(function (app) {
     app.on('preload:end', function () {});
     app.on('start', function () {});
 });
+
+'html, body {',
+             '   background-color: transparent;',
+            '}'
